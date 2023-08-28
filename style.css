@@ -1,0 +1,214 @@
+body {
+	background-color: #edede4;
+	margin: 0;
+}
+
+header {
+	background-color: white;
+}
+
+.container {
+	width: 75%;
+	margin: auto;
+}
+
+.logo {
+	display: inline-block;
+	width: 18%;
+	vertical-align: middle;
+}
+
+.logo img {
+	height: 100px;
+}
+
+.nav {
+	display: inline-block;
+	width: 80%;
+	text-align: center;
+}
+
+.nav-list li {
+	display: inline-block;
+	padding: 10px 50px 10px;
+}
+
+.nav-list a {
+	text-decoration: none;
+	color: red;
+	font-size: 20px;
+	transition: 0.2s;
+}
+
+.nav-list a:hover {
+	color: #ff5959;
+}
+
+.parallax {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bianco.jpg);
+	min-height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+
+.container-image, .container-text {
+	width: 49%;
+	display: inline-block;
+	padding: 60px 0px 60px;
+}
+
+.container-image {
+	text-align: center;
+}
+
+.container-text {
+	vertical-align: top;
+}
+
+.container-image img {
+	width: 80%;
+	border: 2px solid red;
+}
+
+.line {
+	width: 65%;
+	border: 1px solid red;
+}
+
+.container-text h2 {
+	text-align: center;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+.container-text p {
+	text-align: justify;
+	font-size: 18px;
+}
+
+.menu-title {
+	text-align: center;
+}
+
+.fooditem {
+	margin: 20px 20px 20px;
+	width: 20%;
+	background-color: white;
+	text-align: center;
+	padding-bottom: 30px;
+	display: inline-block;
+	border: 1px solid #dddddd;
+	border-radius: 5px;
+}
+
+.fooditem img {
+	width: 180px;
+	height: 150px;
+	padding: 10px;
+}
+
+.fooditem h4 {
+	font-weight: lighter;
+	font-size: 20px;
+	padding: 30px 50px 20px;
+}
+
+.red-button {
+	padding: 7px 40px 7px;
+	color: white;
+	background-color: red;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.red-button: hover {
+	color: red;
+	background-color: white;
+	border: 1px solid red;
+	font-weight: bold;
+}
+
+.delivery {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	width: 30%;
+	display: inline-block;
+	padding-left: 30px;
+}
+
+.delivery h2 {
+	font-weight: lighter;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+
+.delivery-info img {
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.delivery-info p {
+	display: inline-block;
+}
+
+.form-heading {
+	text-align: center;
+	padding: 20px 0px 20px;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+.contact {
+	text-align: center;
+	margin: auto;
+	width: 50%;
+}
+
+.contact input {
+	width: 100%;
+	padding: 5px 5px 5px 10px;
+	margin: 8px 0px 8px;
+	border-radius: 5px;
+	box-shadow: 0px 1px 1px lightgray, 0px -1px 1px lightgray;
+	border: 1px solid lightgray;
+}
+
+.contact textarea {
+	width: 100%;
+	padding: 5px 5px 20px 10px;
+	border-radius: 5px;
+	margin-bottom: 40px;
+	box-shadow: 0px 1px 1px lightgray, 0px -1px 1px lightgray;
+	border: 1px solid lightgray;
+}
+
+.form-btn {
+	padding: 7px 40px 7px;
+	color: white;
+	background-color: red;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: 0.2s;
+}
+
+.form-btn:hover {
+	color: red;
+	background-color: white;
+	border: 1px solid red;
+	font-weight: bold;
+}
+
+footer {
+	background-color: #888888;
+	text-align: center;
+	padding: 13px 0px 13px;
+	margin-top: 40px;
+}
+
+footer p {
+	margin: 0px;
+}
